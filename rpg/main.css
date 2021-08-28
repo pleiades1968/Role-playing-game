@@ -1,0 +1,215 @@
+#stage {
+  width: 640px;
+  height: 480px;
+  background-image: url('haikei-sougen2.jpg');
+  background-repeat: no-repeat;
+}
+#container {
+  padding: 5px 10px;
+}
+#status-window {
+  display: inline-block;
+  border: 4px solid #fff;
+  border-radius: 3px;
+  background-color: #000;
+  background-color: rgba(0, 0, 0, 0.65);
+}
+#status-window .name-list {
+  border-bottom: 2px solid #fff;
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+#status-window .name-list .name {
+  padding: 0 10px;
+  text-align: center;
+  float: left;
+  color: #fff;
+  font-size: 18px;
+  width: 90px;
+}
+#status-window .status-list {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+#status-window .status-list .status {
+  padding: 0 10px;
+  float: left;
+  color: #fff;
+  width: 90px;
+}
+#status-window .status-list .status:before,
+#status-window .status-list .status:after {
+  content: " ";
+  display: table;
+}
+#status-window .status-list .status:after {
+  clear: both;
+}
+#status-window .status-list .status:before,
+#status-window .status-list .status:after {
+  content: " ";
+  display: table;
+}
+#status-window .status-list .status:after {
+  clear: both;
+}
+#status-window .status-list .status .ele:before,
+#status-window .status-list .status .ele:after {
+  content: " ";
+  display: table;
+}
+#status-window .status-list .status .ele:after {
+  clear: both;
+}
+#status-window .status-list .status .ele:before,
+#status-window .status-list .status .ele:after {
+  content: " ";
+  display: table;
+}
+#status-window .status-list .status .ele:after {
+  clear: both;
+}
+#status-window .status-list .status .ele .val {
+  float: left;
+  display: block;
+  text-align: right;
+  width: 40px;
+}
+#status-window .status-list .status .ele label {
+  float: left;
+  width: 50px;
+}
+#enemy-window {
+  text-align: center;
+  width: 100%;
+  height: 200px;
+  overflow: hidden;
+}
+#enemy-window img {
+  margin-top: 78px;
+  width: 96px;
+  height: auto;
+}
+#log-window {
+  background-color: rgba(0, 0, 0, 0.65);
+  height: 140px;
+  border: 3px solid #fff;
+  border-radius: 3px;
+  padding: 5px;
+  color: #fff;
+  display: none;
+}
+#user-window {
+  color: #fff;
+}
+#user-window:before,
+#user-window:after {
+  content: " ";
+  display: table;
+}
+#user-window:after {
+  clear: both;
+}
+#user-window:before,
+#user-window:after {
+  content: " ";
+  display: table;
+}
+#user-window:after {
+  clear: both;
+}
+#user-window #command-window {
+  position: relative;
+  float: left;
+  border: 2px solid #fff;
+  background-color: rgba(0, 0, 0, 0.65);
+  border-radius: 3px;
+  width: 160px;
+}
+#user-window #command-window label {
+  position: absolute;
+  top: -20px;
+  display: block;
+  border: 2px solid #fff;
+  background-color: rgba(0, 0, 0, 0.7);
+  width: 80px;
+  border-radius: 3px;
+  text-align: center;
+  left: 35px;
+}
+#user-window #command-window .player {
+  display: block;
+  text-align: center;
+  border-bottom: 2px solid #fff;
+}
+#user-window #command-window .command-list {
+  padding: 0;
+  padding-top: 10px;
+  padding-bottom: 3px;
+  list-style-type: none;
+  margin: 0;
+}
+#user-window #command-window .command-list li {
+  padding-left: 40px;
+  cursor: pointer;
+  text-align: left;
+  padding-top: 3px;
+}
+#user-window #command-window .command-list li:hover {
+  background-color: rgba(105, 105, 105, 0.65);
+}
+#user-window #target-window {
+  float: left;
+  width: 300px;
+  background-color: rgba(0, 0, 0, 0.65);
+  border: 2px solid #fff;
+  border-radius: 3px;
+  margin-left: 5px;
+}
+#user-window #target-window .target-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+#user-window #target-window .target-list li {
+  padding: 6px 10px;
+  cursor: pointer;
+}
+#user-window #target-window .target-list li:before,
+#user-window #target-window .target-list li:after {
+  content: " ";
+  display: table;
+}
+#user-window #target-window .target-list li:after {
+  clear: both;
+}
+#user-window #target-window .target-list li:before,
+#user-window #target-window .target-list li:after {
+  content: " ";
+  display: table;
+}
+#user-window #target-window .target-list li:after {
+  clear: both;
+}
+#user-window #target-window .target-list li .name {
+  float: left;
+  width: 100px;
+}
+#user-window #target-window .target-list li .num {
+  float: left;
+  width: 150px;
+  text-align: right;
+}
+#user-window #target-window .target-list li:hover {
+  background-color: rgba(105, 105, 105, 0.65);
+}
+.clearfix:before,
+.clearfix:after {
+  content: " ";
+  display: table;
+}
+.clearfix:after {
+  clear: both;
+}
